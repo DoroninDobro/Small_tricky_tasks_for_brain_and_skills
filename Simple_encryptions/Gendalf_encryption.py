@@ -2,7 +2,7 @@ def tongues(code):
     gandalf = str.maketrans(
          'aiyeoubkxznhdcwgpvjqtsrlmfAIYEOUBKXZNHDCWGPVJQTSRLMF',
          'eouaiypvjqtsrlmfbkxznhdcwgEOUAIYPVJQTSRLMFBKXZNHDCWG')
-    return str.translate(code, gandalf)
+    return str.translate(code, gandalf) 
     
 
 '''Gandalf's writings have long been available for study, but no one has yet 
